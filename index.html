@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Pizza Site</title>
+        <link rel="stylesheet" href="./index.css" />
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"
+        />
+        <script
+            src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"
+        ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.js"></script>
+        <script src="./cart.js"></script>
+    </head>
+
+    <body>
+        <div class="ui top attached borderless massive menu background-red">
+            <a class="item">
+                <img
+                    class="logo"
+                    src="https://demothemedh.b-cdn.net/piizalian/wp-content/uploads/2021/02/pizzalian-logo.svg"
+                />
+            </a>
+            <a class="item" href="#"> Home </a>
+            <a class="item" href="shop.html"> Shop </a>
+            <a class="item" href="#contact">Contact</a>
+            <div class="right menu">
+                <a class="item">
+                    <i class="user outline icon"></i>
+                </a>
+                <a class="item cart-total" href="./cart.html">
+                    <i class="shopping cart icon"></i>
+                    0 items $0,00
+                </a>
+            </div>
+        </div>
+
+        <div class="ui centered grid big-pizza">
+            <div class="three column row"></div>
+            <div class="three column row">
+                <div class="column"></div>
+                <div class="center aligned column">
+                    <h3 class="ui center aligned header">
+                        <div class="content">FREE PIZZA</div>
+                    </h3>
+
+                    <h1 class="ui center aligned header">
+                        <div class="content">
+                            Delivery We Care About Our Customers!
+                        </div>
+                    </h1>
+
+                    <button class="ui active huge button">
+                        <i class="shopping cart icon"></i>
+                        Order Now
+                    </button>
+                </div>
+                <div class="column"></div>
+            </div>
+        </div>
+
+        <div class="ui centered grid top-100-px">
+            <div class="twelve column row">
+                <div class="five wide column">
+                    <div class="ui fluid card h2_banner h2_banner-1">
+                        <div class="content">
+                            <div class="header">Breakfest Menu</div>
+                        </div>
+                        <div class="content">
+                            <h1 class="ui header">Veggie Lover</h1>
+                        </div>
+                        <div class="extra content">
+                            <button class="ui button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui fluid card h2_banner h2_banner-2">
+                        <div class="content">
+                            <div class="header">Chicken Wrap</div>
+                        </div>
+                        <div class="content">
+                            <h1 class="ui header">Only in Local</h1>
+                        </div>
+                        <div class="extra content">
+                            <button class="ui button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui fluid card h2_banner h2_banner-3">
+                        <div class="content">
+                            <div class="header">Grilled Chicken</div>
+                        </div>
+                        <div class="content">
+                            <h1 class="ui header">Summer Pizza</h1>
+                        </div>
+                        <div class="extra content">
+                            <button class="ui button">Order Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="twelve column row">
+                <div class="five wide column">
+                    <div class="ui items border-dashed">
+                        <div class="item">
+                            <div class="ui mini image">
+                                <img src="./src/img/free-shipping.png" />
+                            </div>
+                            <div class="content">
+                                <div class="header">Free Shipping</div>
+                                <div class="description">
+                                    <p>
+                                        Sign up for updates and get free
+                                        shipping
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui items border-dashed">
+                        <div class="item">
+                            <div class="ui mini image">
+                                <img src="./src/img/30-minutes.png" />
+                            </div>
+                            <div class="content">
+                                <div class="header">Free Shipping</div>
+                                <div class="description">
+                                    <p>
+                                        Sign up for updates and get free
+                                        shipping
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui items border-dashed">
+                        <div class="item">
+                            <div class="ui mini image">
+                                <img src="./src/img/quality.png" />
+                            </div>
+                            <div class="content">
+                                <div class="header">Free Shipping</div>
+                                <div class="description">
+                                    <p>
+                                        Sign up for updates and get free
+                                        shipping
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui centered grid">
+            <div class="column centered row">
+                <div class="eight wide column">
+                    <img
+                        class="width-50"
+                        src="https://demothemedh.b-cdn.net/piizalian/wp-content/uploads/2021/03/h2_img-3.png"
+                    />
+                </div>
+                <div class="seven wide column">
+                    <div class="ui items">
+                        <div class="item">
+                            <div class="content">
+                                <a class="header">
+                                    <h1 class="ui header">
+                                        WE MAKE THE BEST PIZZA IN YOUR TOWN
+                                    </h1>
+                                </a>
+                                <div class="description">
+                                    <p>
+                                        As well known and we are very busy all
+                                        days advice you. advice you to call us
+                                        of before arriving, so we can guarantee
+                                        your seat. advice you to call us of
+                                        before arriving, so we can
+                                    </p>
+                                </div>
+                                <div class="extra">
+                                    <div
+                                        class="
+                                            ui
+                                            active
+                                            floated
+                                            red
+                                            huge
+                                            button
+                                        "
+                                    >
+                                        <i class="shopping cart icon"></i>
+                                        Order Now
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui huge horizontal list">
+                        <div class="item">
+                            <img class="ui image" src="./src/img/burguer.png" />
+                            <div class="content">
+                                A new look on the <br />
+                                right food!
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui image" src="./src/img/burguer.png" />
+                            <div class="content">
+                                The use of natural <br />
+                                best quality products
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui huge horizontal list">
+                        <div class="item">
+                            <img class="ui image" src="./src/img/burguer.png" />
+                            <div class="content">
+                                World’s best Chef <br />
+                                and Nutritionist!
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img class="ui image" src="./src/img/burguer.png" />
+                            <div class="content">
+                                Fastest delivery on <br />
+                                your door step
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui centered grid background-grey">
+            <div class="column row">
+                <div class="left aligned two wide column">
+                    <button class="ui basic icon button">
+                        <i class="caret left icon"></i>
+                    </button>
+                </div>
+                <div class="ten wide centered column">
+                    <h1 class="ui center aligned header">
+                        <div class="content">POPULAR BURGERS</div>
+                    </h1>
+                    <h3 class="ui center aligned header">
+                        <div class="content">
+                            Fresh lettuce, tomatoes, crisp cucumbers, house
+                            roasted multicolored peppers and Swiss on pita.
+                            Served with a side of ranch dressing. You’re cooking
+                            a meal, especially a holiday meal, to be and Swiss
+                            on pita. Served with a side of ranch dressing.
+                        </div>
+                    </h3>
+                    <p class="ui center aligned header">Michael Kim</p>
+                    <p class="ui center aligned header">Co-founder Amazon</p>
+                </div>
+                <div class="right aligned two wide column">
+                    <button class="ui basic icon button">
+                        <i class="caret right icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui centered grid">
+            <div class="twelve centered column row">
+                <div class="five wide column">
+                    <div class="ui card border-dashed">
+                        <div class="image">
+                            <img
+                                src="https://demothemedh.b-cdn.net/piizalian/wp-content/uploads/2021/03/about_img_4.jpg"
+                            />
+                        </div>
+                        <div class="content">
+                            <a class="header">WILLIAM SMITH</a>
+                            <div class="description">
+                                Everything We Pizza, We Pizza With Love.
+                                Designer Fastfood.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <span class="rigth floated like">
+                                <button class="ui red button">CHEF</button>
+                            </span>
+                        </div>
+                        <div class="extra content">
+                            <span class="center floated like">
+                                <i class="facebook square icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="twitter icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="google icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="youtube icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui card border-dashed">
+                        <div class="image">
+                            <img
+                                src="https://demothemedh.b-cdn.net/piizalian/wp-content/uploads/2021/03/about_img_4.jpg"
+                            />
+                        </div>
+                        <div class="content">
+                            <a class="header">WILLIAM SMITH</a>
+                            <div class="description">
+                                Everything We Pizza, We Pizza With Love.
+                                Designer Fastfood.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <span class="rigth floated like">
+                                <button class="ui red button">CHEF</button>
+                            </span>
+                        </div>
+                        <div class="extra content">
+                            <span class="center floated like">
+                                <i class="facebook square icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="twitter icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="google icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="youtube icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="five wide column">
+                    <div class="ui card border-dashed">
+                        <div class="image">
+                            <img
+                                src="https://demothemedh.b-cdn.net/piizalian/wp-content/uploads/2021/03/about_img_4.jpg"
+                            />
+                        </div>
+                        <div class="content">
+                            <a class="header">WILLIAM SMITH</a>
+                            <div class="description">
+                                Everything We Pizza, We Pizza With Love.
+                                Designer Fastfood.
+                            </div>
+                        </div>
+                        <div class="extra content">
+                            <span class="rigth floated like">
+                                <button class="ui red button">CHEF</button>
+                            </span>
+                        </div>
+                        <div class="extra content">
+                            <span class="center floated like">
+                                <i class="facebook square icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="twitter icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="google icon"></i>
+                            </span>
+                            <span class="center floated star">
+                                <i class="youtube icon"></i>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui centered grid" id="contact">
+            <div class="column row">
+                <div class="eight wide column">
+                    <img src="./src/img/map.png" />
+                </div>
+                <div class="eight wide column">
+                    <div class="ui six centered column grid">
+                        <div class="fourteen wide column">
+                            <h3 class="ui center aligned header">
+                                <div class="content">CONTACT</div>
+                            </h3>
+
+                            <h1 class="ui center aligned header">
+                                <div class="content">TALK WITH US</div>
+                            </h1>
+
+                            <form class="ui form">
+                                <div class="field">
+                                    <input
+                                        type="text"
+                                        name="name"
+                                        placeholder="Your Name"
+                                        pattern="[a-zA-Z ]+"
+                                        required
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                        type="email"
+                                        name="email"
+                                        placeholder="Your Email"
+                                        required
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                        type="text"
+                                        name="subject"
+                                        placeholder="Subject"
+                                        pattern="[a-zA-Z0-9 ]+"
+                                        required
+                                    />
+                                </div>
+                                <div class="field">
+                                    <input
+                                        type="text"
+                                        name="message"
+                                        placeholder="Your message"
+                                        pattern="[a-zA-Z0-9 ]+"
+                                        required
+                                    />
+                                </div>
+                                <button class="ui red button" type="submit">
+                                    Submit
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="ui centered grid">
+            <div class="column row">
+                <div class="left aligned two wide column"></div>
+                <div class="ten wide centered column">
+                    <h1 class="ui center aligned header">
+                        <div class="content">SUBSCRIBE TO NEWSLETTER</div>
+                    </h1>
+                    <h3 class="ui center aligned header">
+                        <div class="content">
+                            Subscribe to receive our weekly Hot Promotion every
+                            Monday!
+                        </div>
+                    </h3>
+                    <form class="ui huge form">
+                        <div class="field">
+                            <input
+                                type="text"
+                                name="first-name"
+                                placeholder="Your Email Address"
+                            />
+                        </div>
+                    </form>
+                </div>
+                <div class="right aligned two wide column"></div>
+            </div>
+        </div>
+
+        <div class="ui centered grid">
+            <div class="column centered">
+                <img
+                    class="logo"
+                    src="https://demothemedh.b-cdn.net/piizalian/wp-content/uploads/2021/03/logo-Black.svg"
+                />
+            </div>
+            <div class="three column row">
+                <div class="left aligned four wide column">
+                    Copyright © 2020 Piizalian. All Rights Reserved
+                </div>
+                <div class="four wide centered column">
+                    570 8th Ave, New York, NY 10018 United States
+                </div>
+                <div class="right aligned four wide column">
+                    Follow us
+                    <span class="center floated like">
+                        <i class="facebook square icon"></i>
+                    </span>
+                    <span class="center floated star">
+                        <i class="twitter icon"></i>
+                    </span>
+                    <span class="center floated star">
+                        <i class="google icon"></i>
+                    </span>
+                    <span class="center floated star">
+                        <i class="youtube icon"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </body>
+    <script>
+        updateCartFinalPrice({
+            total: getTotalItems(),
+            finalValue: getFinalPrice()
+        })
+    </script>
+</html>
